@@ -7,9 +7,9 @@ import java.util.Properties;
 
 public class player_data_load {
 
-    public static void player_data_load(String File) {
+    public static Properties player_data_pro = new Properties();
 
-        Properties player_data_pro = new Properties();
+    public static void player_data_load() {
 
         try {
             player_data_pro.load(new FileInputStream("src/main/java/game/game_resources/File/player/player_data.properties"));

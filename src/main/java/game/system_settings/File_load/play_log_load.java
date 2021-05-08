@@ -7,9 +7,9 @@ import java.util.Properties;
 
 public class play_log_load {
 
-    public static void play_log_load(String File) {
+    public static Properties play_log_pro = new Properties();
 
-        Properties play_log_pro = new Properties();
+    public static void play_log_load() {
 
         try {
             play_log_pro.load(new FileInputStream("src/main/java/game/game_resources/File/game_system/play_log.properties"));
