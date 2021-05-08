@@ -11,6 +11,7 @@ public class player_variable {
         player_data_load.player_data_load();
         player_name = player_data_load.player_data_pro.getProperty("player_name");
 
+
     }
 
 }
