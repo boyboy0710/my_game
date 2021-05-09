@@ -1,4 +1,4 @@
-package game.system_settings.File_load;
+package game.system_settings.File.File_load;
 
 import javax.swing.*;
 import java.io.FileInputStream;

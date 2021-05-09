@@ -1,10 +1,10 @@
 package game.system_settings.system_variable;
 
-import game.system_settings.File_load.player_data_load;
+import game.system_settings.File.File_load.player_data_load;
 
 public class player_variable {
 
-    static String player_name;
+    public static String player_name;
 
     public static void player_variable() {
 
